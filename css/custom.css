@@ -17,7 +17,7 @@ body
 	height: 100vh;
 	z-index: -2;
 }
-/*.goal::before
+.goal::before
 {
 	content: "";
 	position: absolute;
@@ -27,7 +27,7 @@ body
 	bottom: 0;
 	background: rgba(0,128,43,0.5);
 	z-index: -1;
-}*/
+}
 .box
 {
 	margin: 0;
