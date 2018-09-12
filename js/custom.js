@@ -1,7 +1,14 @@
 $(document).ready(function(){
-    $('.datepicker').datepicker();
-  });
-
-$(document).ready(function(){
-$('select').formSelect();
+	$(".box2").hide();
+	$("#goalEntered").click(function(){
+		// $(".box2").show();
+		// $(".box2").css("width","80vmin");
+		$(".b1").hide();
+		$(".box").css({
+			"width": "0",
+			"height": "0",
+		});
+		// $(".box").hide();
+		console.log("try");
+	});
 });
