@@ -1,0 +1,37 @@
+@font-face 
+{
+    font-family: circular;
+	src: url('../font/CircularStd-Medium.otf');
+}
+body
+{
+	font-family: circular;
+}
+.goal
+{
+	position: relative;
+	background-image: url('../img/goal.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	z-index: -2;
+}
+.goal::before
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0,128,43,0.5);
+	z-index: -1;
+}
+.box
+{
+	z-index: 2;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	padding: 5px;
+}
