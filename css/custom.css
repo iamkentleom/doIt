@@ -17,7 +17,7 @@ body
 	height: 100vh;
 	z-index: -2;
 }
-.goal::before
+/*.goal::before
 {
 	content: "";
 	position: absolute;
@@ -27,11 +27,16 @@ body
 	bottom: 0;
 	background: rgba(0,128,43,0.5);
 	z-index: -1;
-}
+}*/
 .box
 {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 	z-index: 2;
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 5px;
-	padding: 5px;
+	padding: 10px;
 }
