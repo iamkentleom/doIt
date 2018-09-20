@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.fadfa.adag" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>TRY</name>
+    <name>DO IT</name>
     <description>
-        A blank PhoneGap app.
+        Do It - Do stuff now.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="aetherapps@gmail.com" href="http://phonegap.com">
+        Aetherapps Team
     </author>
     <content src="index.html" />
     <access origin="*" />
