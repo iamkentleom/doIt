@@ -41,17 +41,7 @@ body
 	width: 80vmin;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.box2
+.b2, .b3
 {
-	margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 150%;
-    transform: translate(-50%, -50%);
-	z-index: 2;
-	background-color: rgba(255,255,255,0.5);
-	border-radius: 0;
-	padding: 8vmin;
-	width: 80vmin;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	left: 150%;
 }
