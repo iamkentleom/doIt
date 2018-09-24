@@ -15,6 +15,7 @@ body
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	transition: 0.5s;
 }
 .layer
 {
@@ -24,6 +25,7 @@ body
     left: 0;
     width: 100%;
     height: 100%;
+    transition: 0.5s;
 }
 .box
 {
@@ -34,24 +36,22 @@ body
     transform: translate(-50%, -50%);
 	z-index: 2;
 	background-color: rgba(255,255,255,0.5);
-	border-radius: 5px;
+	border-radius: 0;
 	padding: 8vmin;
 	width: 80vmin;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transition: 0.5s;
 }
 .box2
 {
 	margin: 0;
     position: absolute;
     top: 50%;
-    left: 100%;
+    left: 150%;
     transform: translate(-50%, -50%);
 	z-index: 2;
 	background-color: rgba(255,255,255,0.5);
-	border-radius: 5px;
+	border-radius: 0;
 	padding: 8vmin;
 	width: 80vmin;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transition: 0.5s;
 }
