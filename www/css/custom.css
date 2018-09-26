@@ -43,7 +43,7 @@ body
 }
 .btn
 {
-	position: absolute;
+	position: relative;
 	border-radius: 0px;
 	background-color: #fff;
 	color: #28a745;
@@ -56,6 +56,7 @@ body
 	content: '';
 	position: absolute;
 	background-color: #28a745;
+	border-color: #28a745;
 	top: 100%;
 	left: 0;
 	right: 0;
@@ -67,6 +68,7 @@ body
 {
 	color: #fff;
 	border-color: #28a745;
+	background: #fff;
 }
 .btn:hover:before
 {
@@ -77,10 +79,6 @@ body
 	border-color: inherit;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-}
-.btn-box
-{
-	position: relative;
 }
 .form-control
 {

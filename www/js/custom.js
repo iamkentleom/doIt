@@ -1,11 +1,15 @@
 $(document).ready(function(){
 	$(".b2,.b3").hide();
 	$("#goalEntered").click(function(){
-		$(".b1").animate({left: '-50vw'},500);
-		$(".goal").css("background-image", "url('img/deadline.jpeg')");
-		$(".b2").show();
-		$(".b2").animate({left: "50%"}, 500);
-		$(".layer").css("background-color","rgba(0, 0, 0, 0.5)");
+		
+		setTimeout(function(){
+			$(".b1").animate({left: '-50vw'},500);
+			$(".goal").css("background-image", "url('img/deadline.jpeg')");
+			$(".b2").show();
+			$(".b2").animate({left: "50%"}, 500);
+			$(".layer").css("background-color","rgba(0, 0, 0, 0.5)");
+		},500);
+		
 	});
 	$("#backGoal").click(function(){
 		$(".layer").css("background-color","rgba(0, 0, 0, 0.5)");
